@@ -1,0 +1,177 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title span {
+    color: #26ffcb;
+    padding-left: 15px;
+}
+
+.board {
+    max-width: 564px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.boxes {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.reset {
+    width: 180px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 26px;
+    color: #26ffcb;
+    margin-top: 25px;
+}
+
+.boxes img {
+    margin: auto;
+}
+
+.title img {
+    height: 40px;
+    padding: 15px 15px;
+}
+
+
+/* Media Query for even smaller screens */
+@media (max-width: 1440px) {
+    .title {
+        margin-top: 80px;
+    }
+
+    .board {
+        justify-content: center;
+    }
+
+    .title img {
+        height: 60px;
+        padding: 15px 15px;
+    }
+
+    .boxes img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .board {
+        justify-content: center;
+    }
+
+    .title img {
+        height: 55px;
+        padding: 10px 10px;
+    }
+
+    .boxes img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title img {
+        height: 60px;
+        padding: 10px 11px;
+    }
+
+    .boxes img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+        margin-top: 100px;
+    }
+
+    .reset {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .boxes {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title img {
+        height: 50px;
+        padding: 12px 12px;
+    }
+
+    .boxes img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        margin-top: 120px;
+    }
+
+    .title img {
+        height: 50px;
+        padding: 10px 10px;
+    }
+
+    .boxes img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        margin-top: 150px;
+    }
+
+    .boxes {
+        width: 80px;
+        height: 80px;
+    }
+
+    .reset {
+        width: 150px;
+        height: 50px;
+    }
+
+    .title img {
+        height: 45px;
+        padding: 10px 10px;
+    }
+
+    .boxes img {
+        width: 50px;
+        height: 50px;
+    }
+}
